@@ -60,67 +60,67 @@ include CMakeFiles/OSM_A_star_search.dir/flags.make
 CMakeFiles/OSM_A_star_search.dir/src/main.cpp.o: CMakeFiles/OSM_A_star_search.dir/flags.make
 CMakeFiles/OSM_A_star_search.dir/src/main.cpp.o: ../src/main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OSM_A_star_search.dir/src/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OSM_A_star_search.dir/src/main.cpp.o -c /home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/src/main.cpp
+	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OSM_A_star_search.dir/src/main.cpp.o -c /home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/src/main.cpp
 
 CMakeFiles/OSM_A_star_search.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OSM_A_star_search.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/src/main.cpp > CMakeFiles/OSM_A_star_search.dir/src/main.cpp.i
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/src/main.cpp > CMakeFiles/OSM_A_star_search.dir/src/main.cpp.i
 
 CMakeFiles/OSM_A_star_search.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OSM_A_star_search.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/src/main.cpp -o CMakeFiles/OSM_A_star_search.dir/src/main.cpp.s
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/src/main.cpp -o CMakeFiles/OSM_A_star_search.dir/src/main.cpp.s
 
 CMakeFiles/OSM_A_star_search.dir/src/model.cpp.o: CMakeFiles/OSM_A_star_search.dir/flags.make
 CMakeFiles/OSM_A_star_search.dir/src/model.cpp.o: ../src/model.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/OSM_A_star_search.dir/src/model.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OSM_A_star_search.dir/src/model.cpp.o -c /home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/src/model.cpp
+	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OSM_A_star_search.dir/src/model.cpp.o -c /home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/src/model.cpp
 
 CMakeFiles/OSM_A_star_search.dir/src/model.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OSM_A_star_search.dir/src/model.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/src/model.cpp > CMakeFiles/OSM_A_star_search.dir/src/model.cpp.i
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/src/model.cpp > CMakeFiles/OSM_A_star_search.dir/src/model.cpp.i
 
 CMakeFiles/OSM_A_star_search.dir/src/model.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OSM_A_star_search.dir/src/model.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/src/model.cpp -o CMakeFiles/OSM_A_star_search.dir/src/model.cpp.s
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/src/model.cpp -o CMakeFiles/OSM_A_star_search.dir/src/model.cpp.s
 
 CMakeFiles/OSM_A_star_search.dir/src/render.cpp.o: CMakeFiles/OSM_A_star_search.dir/flags.make
 CMakeFiles/OSM_A_star_search.dir/src/render.cpp.o: ../src/render.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/OSM_A_star_search.dir/src/render.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OSM_A_star_search.dir/src/render.cpp.o -c /home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/src/render.cpp
+	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OSM_A_star_search.dir/src/render.cpp.o -c /home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/src/render.cpp
 
 CMakeFiles/OSM_A_star_search.dir/src/render.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OSM_A_star_search.dir/src/render.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/src/render.cpp > CMakeFiles/OSM_A_star_search.dir/src/render.cpp.i
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/src/render.cpp > CMakeFiles/OSM_A_star_search.dir/src/render.cpp.i
 
 CMakeFiles/OSM_A_star_search.dir/src/render.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OSM_A_star_search.dir/src/render.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/src/render.cpp -o CMakeFiles/OSM_A_star_search.dir/src/render.cpp.s
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/src/render.cpp -o CMakeFiles/OSM_A_star_search.dir/src/render.cpp.s
 
 CMakeFiles/OSM_A_star_search.dir/src/route_model.cpp.o: CMakeFiles/OSM_A_star_search.dir/flags.make
 CMakeFiles/OSM_A_star_search.dir/src/route_model.cpp.o: ../src/route_model.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/OSM_A_star_search.dir/src/route_model.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OSM_A_star_search.dir/src/route_model.cpp.o -c /home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/src/route_model.cpp
+	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OSM_A_star_search.dir/src/route_model.cpp.o -c /home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/src/route_model.cpp
 
 CMakeFiles/OSM_A_star_search.dir/src/route_model.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OSM_A_star_search.dir/src/route_model.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/src/route_model.cpp > CMakeFiles/OSM_A_star_search.dir/src/route_model.cpp.i
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/src/route_model.cpp > CMakeFiles/OSM_A_star_search.dir/src/route_model.cpp.i
 
 CMakeFiles/OSM_A_star_search.dir/src/route_model.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OSM_A_star_search.dir/src/route_model.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/src/route_model.cpp -o CMakeFiles/OSM_A_star_search.dir/src/route_model.cpp.s
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/src/route_model.cpp -o CMakeFiles/OSM_A_star_search.dir/src/route_model.cpp.s
 
 CMakeFiles/OSM_A_star_search.dir/src/route_planner.cpp.o: CMakeFiles/OSM_A_star_search.dir/flags.make
 CMakeFiles/OSM_A_star_search.dir/src/route_planner.cpp.o: ../src/route_planner.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/OSM_A_star_search.dir/src/route_planner.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OSM_A_star_search.dir/src/route_planner.cpp.o -c /home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/src/route_planner.cpp
+	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OSM_A_star_search.dir/src/route_planner.cpp.o -c /home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/src/route_planner.cpp
 
 CMakeFiles/OSM_A_star_search.dir/src/route_planner.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OSM_A_star_search.dir/src/route_planner.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/src/route_planner.cpp > CMakeFiles/OSM_A_star_search.dir/src/route_planner.cpp.i
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/src/route_planner.cpp > CMakeFiles/OSM_A_star_search.dir/src/route_planner.cpp.i
 
 CMakeFiles/OSM_A_star_search.dir/src/route_planner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OSM_A_star_search.dir/src/route_planner.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/src/route_planner.cpp -o CMakeFiles/OSM_A_star_search.dir/src/route_planner.cpp.s
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/src/route_planner.cpp -o CMakeFiles/OSM_A_star_search.dir/src/route_planner.cpp.s
 
 # Object files for target OSM_A_star_search
 OSM_A_star_search_OBJECTS = \

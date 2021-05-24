@@ -8,13 +8,14 @@ RoutePlanner::RoutePlanner(RouteModel &model, float start_x, float start_y, floa
     end_x *= 0.01;
     end_y *= 0.01;
 
+    // OK
     // TODO 2: Use the m_Model.FindClosestNode method to find the closest nodes to the starting and ending coordinates.
     // Store the nodes you find in the RoutePlanner's start_node and end_node attributes.
     RoutePlanner::start_node = &m_Model.FindClosestNode(start_x, start_y);
     RoutePlanner::end_node = &m_Model.FindClosestNode(end_x, end_y);
 }
 
-
+// OK
 // TODO 3: Implement the CalculateHValue method.
 // Tips:
 // - You can use the distance to the end_node for the h value.
@@ -28,15 +29,47 @@ float RoutePlanner::CalculateHValue(RouteModel::Node const *node) {
 
 // TODO 4: Complete the AddNeighbors method to expand the current node by adding all unvisited neighbors to the open list.
 // Tips:
-// - Use the FindNeighbors() method of the current_node to populate current_node.neighbors vector with all the neighbors.
+// ???- Use the FindNeighbors() method of the current_node to populate current_node.neighbors vector with all the neighbors.
 // - For each node in current_node.neighbors, set the parent, the h_value, the g_value. 
 // - Use CalculateHValue below to implement the h-Value calculation.
 // - For each node in current_node.neighbors, add the neighbor to open_list and set the node's visited attribute to true.
 
 void RoutePlanner::AddNeighbors(RouteModel::Node *current_node) {
+    //execute function FindNeighbors to find neighbors around current node
+    current_node->FindNeighbors();
+    //tranfer neighbors data to nb variable
+    std::vector<RouteModel::Node *> nb = current_node->neighbors;
+
+    // Loop through nb and calculate h_value, g_value, mark as visited, and put it inside open_list vector
+    for (auto neighbour : nb) {
+        neighbour->parent = current_node;
+        neighbour->h_value = CalculateHValue(neighbour);
+        neighbour->g_value = current_node->g_value + current_node->distance(*neighbour);
+        neighbour->visited = true;
+        open_list.push_back(neighbour);
+    }
 
 }
 
+
+
+// Function used in NextNode() method
+bool Compare(const RouteModel::Node node1, const RouteModel::Node node2) {
+	// node = {x, y, g, h}
+	// g = distance value (increment each movement step)
+	// h = heuristic value (is lower as we get closer to the goal)
+	// f = g + h
+	float f1 = node1.g_value + node1.h_value;
+	float f2 = node2.g_value + node2.h_value;
+    if (f1 > f2) {
+        return true;
+    } else if (f1 == f2)
+    {
+        return node1.h_value > node2.h_value;
+    } else {
+        return false;
+    }
+}
 
 // TODO 5: Complete the NextNode method to sort the open list and return the next node.
 // Tips:
@@ -46,6 +79,11 @@ void RoutePlanner::AddNeighbors(RouteModel::Node *current_node) {
 // - Return the pointer.
 
 RouteModel::Node *RoutePlanner::NextNode() {
+    //
+    std::sort(open_list.begin(), open_list.end(), Compare);
+    RouteModel::Node *last_node = open_list.back();
+    open_list.pop_back();
+    return last_node;
 
 }
 

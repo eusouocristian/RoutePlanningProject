@@ -60,15 +60,15 @@ include thirdparty/pugixml/CMakeFiles/pugixml.dir/flags.make
 thirdparty/pugixml/CMakeFiles/pugixml.dir/src/pugixml.cpp.o: thirdparty/pugixml/CMakeFiles/pugixml.dir/flags.make
 thirdparty/pugixml/CMakeFiles/pugixml.dir/src/pugixml.cpp.o: ../thirdparty/pugixml/src/pugixml.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object thirdparty/pugixml/CMakeFiles/pugixml.dir/src/pugixml.cpp.o"
-	cd /home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/build/thirdparty/pugixml && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pugixml.dir/src/pugixml.cpp.o -c /home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.cpp
+	cd /home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/build/thirdparty/pugixml && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pugixml.dir/src/pugixml.cpp.o -c /home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.cpp
 
 thirdparty/pugixml/CMakeFiles/pugixml.dir/src/pugixml.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pugixml.dir/src/pugixml.cpp.i"
-	cd /home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/build/thirdparty/pugixml && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.cpp > CMakeFiles/pugixml.dir/src/pugixml.cpp.i
+	cd /home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/build/thirdparty/pugixml && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.cpp > CMakeFiles/pugixml.dir/src/pugixml.cpp.i
 
 thirdparty/pugixml/CMakeFiles/pugixml.dir/src/pugixml.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pugixml.dir/src/pugixml.cpp.s"
-	cd /home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/build/thirdparty/pugixml && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.cpp -o CMakeFiles/pugixml.dir/src/pugixml.cpp.s
+	cd /home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/build/thirdparty/pugixml && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.cpp -o CMakeFiles/pugixml.dir/src/pugixml.cpp.s
 
 # Object files for target pugixml
 pugixml_OBJECTS = \

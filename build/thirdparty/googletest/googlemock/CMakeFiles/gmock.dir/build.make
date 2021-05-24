@@ -60,15 +60,15 @@ include thirdparty/googletest/googlemock/CMakeFiles/gmock.dir/flags.make
 thirdparty/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: thirdparty/googletest/googlemock/CMakeFiles/gmock.dir/flags.make
 thirdparty/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: ../thirdparty/googletest/googlemock/src/gmock-all.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object thirdparty/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
-	cd /home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/build/thirdparty/googletest/googlemock && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/thirdparty/googletest/googlemock/src/gmock-all.cc
+	cd /home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/build/thirdparty/googletest/googlemock && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/thirdparty/googletest/googlemock/src/gmock-all.cc
 
 thirdparty/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gmock.dir/src/gmock-all.cc.i"
-	cd /home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/build/thirdparty/googletest/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/thirdparty/googletest/googlemock/src/gmock-all.cc > CMakeFiles/gmock.dir/src/gmock-all.cc.i
+	cd /home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/build/thirdparty/googletest/googlemock && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/thirdparty/googletest/googlemock/src/gmock-all.cc > CMakeFiles/gmock.dir/src/gmock-all.cc.i
 
 thirdparty/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gmock.dir/src/gmock-all.cc.s"
-	cd /home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/build/thirdparty/googletest/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/thirdparty/googletest/googlemock/src/gmock-all.cc -o CMakeFiles/gmock.dir/src/gmock-all.cc.s
+	cd /home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/build/thirdparty/googletest/googlemock && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cristian/code/Udacity_CPP/OpenStreetMap/CppND-Route-Planning-Project/thirdparty/googletest/googlemock/src/gmock-all.cc -o CMakeFiles/gmock.dir/src/gmock-all.cc.s
 
 # Object files for target gmock
 gmock_OBJECTS = \
