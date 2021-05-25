@@ -42,7 +42,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : " "
+					"fragment" : "-g  "
 				},
 				{
 					"fragment" : "-std=gnu++17"
@@ -79,15 +79,15 @@
 	[
 		{
 			"backtrace" : 2,
+			"id" : "pugixml::@611bf7cf6b05006c5233"
+		},
+		{
+			"backtrace" : 2,
 			"id" : "gtest_main::@608549eaf1de948b0df2"
 		},
 		{
 			"backtrace" : 2,
 			"id" : "gtest::@608549eaf1de948b0df2"
-		},
-		{
-			"backtrace" : 2,
-			"id" : "pugixml::@611bf7cf6b05006c5233"
 		}
 	],
 	"id" : "test::@6890427a1f51a3e7e1df",
@@ -96,12 +96,16 @@
 		"commandFragments" : 
 		[
 			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
 				"fragment" : "",
 				"role" : "flags"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "lib/libgtest_main.a",
+				"fragment" : "lib/libgtest_maind.a",
 				"role" : "libraries"
 			},
 			{
@@ -110,7 +114,7 @@
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "lib/libgtest.a",
+				"fragment" : "lib/libgtestd.a",
 				"role" : "libraries"
 			},
 			{

@@ -91,7 +91,7 @@
 					]
 				}
 			],
-			"name" : "",
+			"name" : "Debug",
 			"projects" : 
 			[
 				{
@@ -171,49 +171,49 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "OSM_A_star_search::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-OSM_A_star_search-1f2322a32becdde8f984.json",
+					"jsonFile" : "target-OSM_A_star_search-Debug-49fdee35156b617834a1.json",
 					"name" : "OSM_A_star_search",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 3,
 					"id" : "gmock::@4d3ef671eb8d35c7e822",
-					"jsonFile" : "target-gmock-d1fc951e4e8e2e855cd0.json",
+					"jsonFile" : "target-gmock-Debug-b6415e0a2c5fa2206a02.json",
 					"name" : "gmock",
 					"projectIndex" : 3
 				},
 				{
 					"directoryIndex" : 3,
 					"id" : "gmock_main::@4d3ef671eb8d35c7e822",
-					"jsonFile" : "target-gmock_main-1e998c4e5b7ade332a98.json",
+					"jsonFile" : "target-gmock_main-Debug-fe6aef1ddd69a4c122b2.json",
 					"name" : "gmock_main",
 					"projectIndex" : 3
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "gtest::@608549eaf1de948b0df2",
-					"jsonFile" : "target-gtest-4c4e4c60abb80ebc4aae.json",
+					"jsonFile" : "target-gtest-Debug-2bd233f530e16d21a645.json",
 					"name" : "gtest",
 					"projectIndex" : 4
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "gtest_main::@608549eaf1de948b0df2",
-					"jsonFile" : "target-gtest_main-cc1a91fdaed76b982676.json",
+					"jsonFile" : "target-gtest_main-Debug-72a84a6265757b814f7e.json",
 					"name" : "gtest_main",
 					"projectIndex" : 4
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "pugixml::@611bf7cf6b05006c5233",
-					"jsonFile" : "target-pugixml-1e3b44cfedb5994d2941.json",
+					"jsonFile" : "target-pugixml-Debug-bb4dfa097ab90e38f927.json",
 					"name" : "pugixml",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "test::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test-9bcbc309ba051c502aed.json",
+					"jsonFile" : "target-test-Debug-e98356e0778c465b6a61.json",
 					"name" : "test",
 					"projectIndex" : 0
 				}

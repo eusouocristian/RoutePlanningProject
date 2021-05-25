@@ -3,7 +3,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "lib/libgtest_main.a"
+			"path" : "lib/libgtest_maind.a"
 		}
 	],
 	"backtrace" : 3,
@@ -79,7 +79,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : " "
+					"fragment" : "-g  "
 				},
 				{
 					"fragment" : "-Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers"
@@ -131,7 +131,7 @@
 		}
 	},
 	"name" : "gtest_main",
-	"nameOnDisk" : "libgtest_main.a",
+	"nameOnDisk" : "libgtest_maind.a",
 	"paths" : 
 	{
 		"build" : "thirdparty/googletest/googlemock/gtest",

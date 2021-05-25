@@ -84,7 +84,6 @@ RouteModel::Node *RoutePlanner::NextNode() {
     RouteModel::Node *last_node = open_list.back();
     open_list.pop_back();
     return last_node;
-
 }
 
 
